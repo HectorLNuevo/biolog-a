@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Noto+Sans+JP&family=Rowdies&display=swap');
+body{
+    background-color: beige;
+}
+h1,
+h2,
+h3{
+    font-family: 'Rowdies', cursive;
+    text-align: center;
+}
+
+p,
+li{
+    color: #fcc544;
+    font-family: 'Monserrat', sans-serif;
+    list-style: georgian;
+}
+img {
+    margin-right: 2vw;
+    padding: 5px;
+    border-width: 3px;
+    border-style: inset;
+    border-color: cornflowerblue aquamarine;
+}
+.sangria{
+    text-indent: 10px;
+    margin-top: 3vw;
+    margin-left: 2vw;
+}
+.japanese-section{
+    color: #105CC1;
+    text-align: start;
+    font-family: 'Noto Sans JP', sans-serif;
+    white-space: pre-line;
+    padding-left: 2vw;
+}
+/* empieza las psudoclases con social networks*/
+.social-network{
+    list-style: georgian;
+    text-decoration: none;
+}
+.social-network:hover{
+    color: #7EA1C4;
+}
+.japanese-section:hover{
+    color: #7EA1C4;
+    background-color: #e3368755;
+}
